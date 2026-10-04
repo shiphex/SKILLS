@@ -24,3 +24,7 @@
 
 # 不归档源项目的 Git 元数据
 skills/**/.git
+
+# 技能运行生成缓存，不属于技能包归档内容
+skills/**/__pycache__/
+skills/**/*.pyc

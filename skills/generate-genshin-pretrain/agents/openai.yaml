@@ -1,0 +1,4 @@
+interface:
+  display_name: "原神预训练数据生成"
+  short_description: "生成世界观过滤的原神预训练 JSONL 数据集并校验"
+  default_prompt: "使用 $generate-genshin-pretrain 从 parsed 世界观资料生成并校验 Pretrain JSONL 数据集。"
