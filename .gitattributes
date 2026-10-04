@@ -1,0 +1,9 @@
+# 仓库管理文档和配置使用 LF
+/README.md text eol=lf
+/AGENTS.md text eol=lf
+/CATALOG.md text eol=lf
+/.gitignore text eol=lf
+/.gitattributes text eol=lf
+
+# 技能包保留原始字节，不进行换行或内容过滤转换
+skills/** -text -filter -ident -working-tree-encoding
